@@ -1,0 +1,96 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.card{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 16px 50px 10px hsl(215, 55%, 8%), 0 2px 50px 10px hsl(215, 55%, 8%);
+    border-radius: 15px;
+    max-height: 80%;
+
+}
+
+.card-title{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.card-text{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+}
+.body-text{
+    margin-bottom: 1rem;
+}
+.author-text{
+    color:hsl(0, 0%, 100%);
+}
+.price-text{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 16px;
+}
+.time-text{
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    
+}
+.avatar{
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    height: 2em;
+    margin-right: 1em;
+}
+.card-img-top {
+    padding-top: 1.4em;
+    padding-left: 0.70em;
+    padding-right: 0.70em;
+    
+}
+/* ***CANT FIGURE OUT IMG PREVIEW HOVER*** */
+/* .card-img-top .img-preview{
+    display: none;
+    position: fixed;
+    
+}
+.card-img-top:hover .img-preview{
+    display:flex;
+    
+} */
+
+
+.img{
+    border-radius: 10px;
+}
+
+.footer{
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+ul{
+    margin: auto;
+   
+    align-content: center;
+    
+}
+.footer-text{
+    font-size: 16px;
+}
+
+a{
+    color: inherit;
+}
+a:hover{
+    color:hsl(178, 100%, 50%);
+    text-decoration: none;
+}
+
+.icon-img{
+    vertical-align: text-bottom;
+    padding-right: 0.5rem;
+}
+
